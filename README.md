@@ -1,22 +1,16 @@
-#Slash
+#Minimalist
 
-Slash is a minimal theme for Octopress.
+Minimalist is a minimal theme for Octopress. It's a fork of Slash, thanks to @tommy351! ^-^
+
+Slash: https://github.com/tommy351/Octopress-Theme-Slash
 
 ##Install
 
 Type the code below in terminal.
 
 	$ cd octopress
-	$ git clone git://github.com/tommy351/Octopress-Theme-Slash.git .themes/slash
-	$ rake install['slash']
+	$ git clone git://github.com/felipeborges/Octopress-Theme-minimalist.git .themes/minimalist
+	$ rake install['minimalist']
 	$ rake generate
 
-Have problems when installing with zsh? Try `rake install\['slash'\]` instead.
-
-##Features
-
-- Read `alt` property of photos and add it below photos.
-- Built-in [Fancybox](http://fancyapps.com/fancybox/) enables you to showcase your works easily.
-- Resize HTML5 `video` and embedded video like `iframe`, `object` to page width automatically.
-- Supports responsive layouts. Whatever devices you use, you can get a great experience.
-- [More info…](http://zespia.tw/Octopress-Theme-Slash/)
+Have problems when installing with zsh? Try `rake install\['minimalist'\]` instead.
