@@ -12,14 +12,15 @@ article{
 	h1.title{
 		font-weight: 300;
 		line-height: 35px;
-		margin-bottom: 20px;
+		display: block;
 		a{
-			color: #000;
+			color: black;
 		}
 	}
 	.entry-content{
 		line-height: 2;
 		text-align: justify;
+		font-size: 15px;
 		a{
 			&:hover{
 				text-decoration: underline;
