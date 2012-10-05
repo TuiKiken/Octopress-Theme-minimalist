@@ -226,3 +226,19 @@
 	background: #000;
 	background: rgba(0, 0, 0, .8);
 }
+
+.fancybox-container-center {
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.fancybox-container-left {
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+
+.fancybox-container-right {
+    float: right;
+    padding: 10px 0 10px 10px;
+}

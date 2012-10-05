@@ -20,6 +20,15 @@
 			var _i = i;
 			$(this).find('img').each(function(){
 				var alt = this.alt;
+                var containerClass = '-center';
+
+                if ($(this).hasClass('right')) {
+                    containerClass =  '-right';
+                } else if ($(this).hasClass('left')) {
+                    containerClass =  '-left';
+                }
+
+                $(this).wrap('<div class="fancybox-container fancybox-container'+containerClass+'"/>');
 
 				if (alt != ''){
 					$(this).after('<span class="caption">'+alt+'</span>');
