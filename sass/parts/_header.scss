@@ -5,7 +5,7 @@ $header-height: 25px;
 	background: -moz-linear-gradient(#FAFAFA, #EAEAEA);
 	height: $header-height;
 	border-bottom: 1px solid #cacaca;
-	padding: 10px;
+	padding: 10px 0;
 	line-height: 1.4em;
 	width: 100%;
 	@media screen and (max-width: 1040px){
@@ -35,9 +35,12 @@ $header-height: 25px;
 		color: #030303;
 	}
 }
-
+#topbar-wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
 #topbar{
-	width: 55%;
+	width: 70%;
 	margin: 0 auto;
 }
 
