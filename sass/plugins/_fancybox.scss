@@ -227,6 +227,11 @@
 	background: rgba(0, 0, 0, .8);
 }
 
+.fancybox-container a {
+    line-height: 0;
+    display: block;
+}
+
 .fancybox-container-center {
     margin: 0 auto;
     padding: 10px 0;
