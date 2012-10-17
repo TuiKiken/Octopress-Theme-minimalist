@@ -35,8 +35,17 @@ $header-height: 25px;
     }
 }
 #topbar{
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
+
+    @media screen and (max-width: 800px){
+        @include box-sizing(padding-box);
+        padding: 0 50px;
+        width: 100%;
+    }
+    @media screen and (max-width: 600px){
+        padding: 0 20px;
+    }
 }
 #sub-nav{
 	@media screen and (max-width: 600px){
