@@ -13,6 +13,9 @@
 	border-top: 1px solid $top;
 	border-bottom: 1px solid $bottom;
 }
+@mixin border-top($color: $color-gray04){
+  border-top: 1px solid $color;
+}
 @mixin center($width, $height){
 	position: absolute;
 	top: 50%;

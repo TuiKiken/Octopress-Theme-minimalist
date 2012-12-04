@@ -133,7 +133,12 @@ article{
 	}
 }
 .share{
+    @include border-top();
 	padding: 15px 0;
-	width: 70%;
+    height: 20px;
+	width: 80%;
 	margin: 0 auto;
+    .social iframe{
+        width: 100px !important;
+    }
 }
